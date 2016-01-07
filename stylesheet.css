@@ -1,3 +1,10 @@
+@font-face {
+    font-family: karlie_dog;
+    font-style: normal;
+    font-weight: normal;
+    src: url("din-regular-webfont.woff");
+}
+
 body {
 	background-color:white;
 
@@ -19,7 +26,6 @@ h1 {
 	font-family: karlie_dog;
     font-style: normal;
     font-weight: normal;
-    src: url("assets/din-regular-webfont.woff");
 	color:#4C4C4C;
 	font-size: 16px;
 	}
