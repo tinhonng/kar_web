@@ -7,8 +7,8 @@ body {
 
 #container {
 	margin: 0 auto;
-	width:860px;
-	padding:30px 30px 0 30px;
+	width:90%;
+	padding:30px 5% 0 5%;
 	background-color:white;
 	overflow:auto;
 }
@@ -40,29 +40,10 @@ body {
 	
 	
 img { 
-	max-width: 100% 
+	width: 100% 
 }
 
 .imagebox {
 	padding-top:20px;
 	
-}
-
-
-
-@media screen and (max-width:1200px) { /*DESKTOP*/
-	#container {
-	width:760px;
-}
-	
-	
-@media screen and (max-width:820px) { /*TABLET*/
-	#container {
-	width:600px;
-}
-	
-	
-@media screen and (max-width:520px) { /*MOBILE*/
-	#container {
-	width:90%;
 }
